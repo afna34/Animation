@@ -1,0 +1,45 @@
+body {
+	width: 50rem;
+	height: 30em;
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-repeat: no-repeat;
+}
+.outer {
+	width: 50rem;
+	height: 20em;
+	border-radius: 10px;
+	background-color: #051937;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation-name: slider;
+	background-image: url('https://www.setaswall.com/wp-content/uploads/2017/07/Dubai-Wallpaper-30-2048x1155.jpg');
+	background-size: 100% 100%;
+    animation-duration: 3s;
+	animation-iteration-count: infinite;	
+	animation-timing-function:linear;
+
+}
+
+@keyframes slider {
+	0% {
+		background-image: url('https://i.pinimg.com/originals/83/b6/f5/83b6f55e68a63de395dc9aedda74914f.jpg');
+	}
+
+	35% {
+		background-image: url('https://c4.wallpaperflare.com/wallpaper/639/936/902/big-ben-in-london-at-sunset-uk-landscape-photography-4k-ultra-hd-desktop-wallpapers-for-computers-laptop-tablet-and-mobile-phones-3840%C3%972160-wallpaper-preview.jpg');
+	}
+
+	75% {
+		background-image: url('https://c4.wallpaperflare.com/wallpaper/639/936/902/big-ben-in-london-at-sunset-uk-landscape-photography-4k-ultra-hd-desktop-wallpapers-for-computers-laptop-tablet-and-mobile-phones-3840%C3%972160-wallpaper-preview.jpg');
+	}
+}
+h1{
+    color: rgb(32 63 46);
+    font-size: 32px;
+	padding-left: 40%;
+	font-family: Papyrus;
+	font-weight: bold;
+    
+}
